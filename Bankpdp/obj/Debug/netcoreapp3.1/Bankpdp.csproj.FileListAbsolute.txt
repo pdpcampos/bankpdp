@@ -1,0 +1,14 @@
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\bin\Debug\netcoreapp3.1\Bankpdp.exe
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\bin\Debug\netcoreapp3.1\Bankpdp.deps.json
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\bin\Debug\netcoreapp3.1\Bankpdp.runtimeconfig.json
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\bin\Debug\netcoreapp3.1\Bankpdp.runtimeconfig.dev.json
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\bin\Debug\netcoreapp3.1\Bankpdp.dll
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\bin\Debug\netcoreapp3.1\Bankpdp.pdb
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\obj\Debug\netcoreapp3.1\Bankpdp.csproj.AssemblyReference.cache
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\obj\Debug\netcoreapp3.1\Bankpdp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\obj\Debug\netcoreapp3.1\Bankpdp.AssemblyInfoInputs.cache
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\obj\Debug\netcoreapp3.1\Bankpdp.AssemblyInfo.cs
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\obj\Debug\netcoreapp3.1\Bankpdp.csproj.CoreCompileInputs.cache
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\obj\Debug\netcoreapp3.1\Bankpdp.dll
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\obj\Debug\netcoreapp3.1\Bankpdp.pdb
+C:\Users\PEDRO\OneDrive\Área de Trabalho\Bankpdp\Bankpdp\obj\Debug\netcoreapp3.1\Bankpdp.genruntimeconfig.cache
