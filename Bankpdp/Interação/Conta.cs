@@ -9,7 +9,8 @@ namespace Bankpdp.Interação
     {
         public Conta()
         {
-
+            this.NumeroAgencia = "1997";
+            Conta.NumeroDaContaSequencial++;
         }
 
         public double Saldo { get; protected set; }
@@ -17,6 +18,7 @@ namespace Bankpdp.Interação
         public string NumeroAgencia { get; private set; }
 
         public string NumeroConta { get; protected set; }
+        public static int NumeroDaContaSequencial { get; private set; }
 
         public double ConsultaSaldo()
         {
@@ -25,27 +27,33 @@ namespace Bankpdp.Interação
 
         public void Deposita(double valor)
         {
-            throw new NotImplementedException();
+            this.Saldo += valor;
+        }
+
+        
+        public bool saca(double valor)
+        {
+            if (valor > this.ConsultaSaldo())
+                return false;
+            
+            this.Saldo -= valor;
+            return true;
         }
 
         public string GetCodigoDoBanco()
         {
-            throw new NotImplementedException();
+            return this.CodigoDoBanco;
         }
 
         public string GetNumeroAgencia()
         {
-            throw new NotImplementedException();
+            return this.NumeroAgencia;
         }
 
         public string GetNumeroConta()
         {
-            throw new NotImplementedException();
+            return this.NumeroConta;
         }
 
-        public bool saca(double valor)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
