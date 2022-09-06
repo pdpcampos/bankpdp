@@ -11,6 +11,7 @@ namespace Bankpdp.Interação
         {
             this.NumeroAgencia = "1997";
             Conta.NumeroDaContaSequencial++;
+            this.Movimentacoes = new List<Extrato>();
         }
 
         public double Saldo { get; protected set; }
@@ -20,6 +21,10 @@ namespace Bankpdp.Interação
         public string NumeroConta { get; protected set; }
         public static int NumeroDaContaSequencial { get; private set; }
 
+        private List<Extrato> Movimentacoes;
+        
+
+
         public double ConsultaSaldo()
         {
             return this.Saldo;
@@ -27,6 +32,8 @@ namespace Bankpdp.Interação
 
         public void Deposita(double valor)
         {
+            DateTime dataAtual = DateTime.Now;
+            this.Movimentacoes.Add(new Extrato(dataAtual, "deposito", valor));
             this.Saldo += valor;
         }
 
@@ -35,7 +42,10 @@ namespace Bankpdp.Interação
         {
             if (valor > this.ConsultaSaldo())
                 return false;
-            
+
+            DateTime dataAtual = DateTime.Now;
+            this.Movimentacoes.Add(new Extrato(dataAtual, "Saque", - valor));
+
             this.Saldo -= valor;
             return true;
         }
@@ -55,5 +65,9 @@ namespace Bankpdp.Interação
             return this.NumeroConta;
         }
 
+        public List<Extrato> Extratos()
+        {
+            return this.Movimentacoes;
+        }
     }
 }

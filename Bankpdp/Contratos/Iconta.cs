@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bankpdp.Interação;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -16,5 +17,7 @@ namespace Bankpdp.Contratos
         string GetNumeroAgencia();
 
         string GetNumeroConta();
+
+        List<Extrato> Extrato();
     }
 }
